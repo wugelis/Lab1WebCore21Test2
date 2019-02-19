@@ -83,17 +83,17 @@ namespace Lab1WebCore21Test2.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(ToDoListViewModel todo)
+        public IActionResult Create(ToDoListViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var todoList = todo;
+                var todoList = model;
 
                 _context.ToDoLists.Add(new Models.ToDoList() {
-                    Name = todo.Name,
-                    ToDo = todo.ToDo,
-                    StartDate = string.IsNullOrEmpty(todo.StartDate)?null:(DateTime?) Convert.ToDateTime(todo.StartDate),
-                    EndDate = string.IsNullOrEmpty(todo.EndDate)?null:(DateTime?) Convert.ToDateTime(todo.EndDate)
+                    Name = model.Name,
+                    ToDo = model.ToDo,
+                    StartDate = string.IsNullOrEmpty(model.StartDate)?null:(DateTime?) Convert.ToDateTime(model.StartDate),
+                    EndDate = string.IsNullOrEmpty(model.EndDate)?null:(DateTime?) Convert.ToDateTime(model.EndDate)
                 });
 
                 _context.SaveChanges();

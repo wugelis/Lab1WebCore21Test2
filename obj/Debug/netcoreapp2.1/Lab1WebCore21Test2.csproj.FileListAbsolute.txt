@@ -36,4 +36,3 @@ D:\Temp\ASP.NETCore21Lads\Lab1WebCore21Test2\Lab1WebCore21Test2\obj\Debug\netcor
 D:\Temp\ASP.NETCore21Lads\Lab1WebCore21Test2\Lab1WebCore21Test2\obj\Debug\netcoreapp2.1\Razor\Views\Home\Create.g.cshtml.cs
 D:\Temp\ASP.NETCore21Lads\Lab1WebCore21Test2\Lab1WebCore21Test2\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
 D:\Temp\ASP.NETCore21Lads\Lab1WebCore21Test2\Lab1WebCore21Test2\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.g.cshtml.cs
-D:\Temp\ASP.NETCore21Lads\Lab1WebCore21Test2\Lab1WebCore21Test2\obj\Debug\netcoreapp2.1\Lab1WebCore21Test2.csprojAssemblyReference.cache
